@@ -10,9 +10,10 @@
 << [link to demo presentation slides](#) >>
 
 ### Team: Amigos de frijoles
-#### Deepanshi Gaur
-     Joey Zhang
-     Kweku
+#### 
+	Deepanshi Gaur
+	Joey Zhang
+	Kweku
 
 ***
 
