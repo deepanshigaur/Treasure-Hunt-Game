@@ -9,13 +9,15 @@
 
 << [link to demo presentation slides](#) >>
 
-### Team: << team name >>
-#### << Team Members >>
+### Team: Amigos de frijoles
+#### Deepanshi Gaur
+     Joey Zhang
+     Kweku
 
 ***
 
 ## Project Description *(Software Lead)*
-<< Give an overview of your project >>
+A Treasure hunt game where the player has to find the treasure thats hidden randomly in the johnson building of dickinson community.
 
 ***    
 
@@ -56,15 +58,15 @@ The Project is broken down into the following file structure:
 ## Tasks and Responsibilities *(Software Lead)*
 * You must outline the team member roles and who was responsible for each class/method, both individual and collaborative.
 
-### Software Lead - << name >>
+### Software Lead -Deepanshi Gaur
 
-<< Worked as integration specialist by... >>
+Worked as integration specialist by underlining our responsibilities and contacting eother team mates, making deadlines and making sure everyone meets them.
 
-### Front End Specialist - << name >>
+### Front End Specialist - Joey Zhang
 
 << Front-end lead conducted significant research on... >>
 
-### Back End Specialist - << name >>
+### Back End Specialist - Kweku 
 
 << The back end specialist... >>
 
