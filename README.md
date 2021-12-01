@@ -58,14 +58,16 @@ The Project is broken down into the following file structure:
 ## Tasks and Responsibilities *(Software Lead)*
 * You must outline the team member roles and who was responsible for each class/method, both individual and collaborative.
 
-### Software Lead -Deepanshi Gaur
+### Software Lead - Deepanshi Gaur
 
-Worked as integration specialist by underlining our responsibilities and contacting eother team mates, making deadlines and making sure everyone meets them.
+* Worked as integration specialist by underlining our responsibilities and contacting other team mates, making deadlines and making sure everyone meets them.
+* Regularly met on Tuesdays and Thursdays to ensure progress and discussed new ideas that can make the game more interesting.
 
 ### Front End Specialist - Joey Zhang
 
-<< Front-end lead conducted significant research on... >>
-
+* Specifically analysed the structure of the Johnson's building in Dickinson Community to map out the backound of the game, Created the player icon and the hidden treasure. 
+* Created the game start screen, game screen and the game over screen.
+	
 ### Back End Specialist - Kweku 
 
 << The back end specialist... >>
