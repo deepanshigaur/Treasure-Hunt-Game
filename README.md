@@ -84,7 +84,7 @@ The Project is broken down into the following file structure:
 |  1  | Open terminal, navigate to folder/directory, run main.py | Game is initialized                         |                 |
 |  2  | Player receives hint/message with possible hiding spots  | The console is updated to display a message |                 |
 |  3. | Player chooses to move forward, left, or right, back     | The user is inputting the correct option and is interacting with the main game when the message pops up in the console |           |
-|  4. | In three room check attempts, the treasure should be found. If three incorrect rooms are checked, or if the player chooses to backward | If the treasure is found the screen will be updated to congratulate the player, If the treasure isn’t found or three moves were used up then the screen is updated to game over |
+|  4. | In three room check attempts, the treasure should be found. If three incorrect rooms are checked, or if the player chooses to backward more than three times the game over screen appears | If the treasure is found the screen will be updated to congratulate the player, If the treasure isn’t found or three moves were used up then the screen is updated to game over |
     | 
   
 
