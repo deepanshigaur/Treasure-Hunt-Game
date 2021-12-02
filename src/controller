@@ -4,20 +4,20 @@ import random
 class Controller:
   def __init__(self):
     """
-description- 
-args-
-return-
+description- General setup and layout for the game
+args- self(class)
+return- None
     """
-
-    #input background image 
-    
-  
-      
+#input background image 
+    #self.window_width = 
+    #self.window_height =
+    #self.screen = pygame.display.set_mode((self.window_width, self.window_height))
+    #self.background = pygame.Surface((self.window_width, self.window_height))
 
   def mainLoop(self):
     """
 description- Starts and ends the game
-args- self
+args- self(class)
 return- None
     """
     while True:
@@ -52,7 +52,8 @@ return- None
 #just one list 
 #create variable random 
 #random range 
-treasure = random.
+#set treasure = random
+#if player chooses to go back three times- they lose
 
 answer = input("Would you like to go left or right or forward?").lower()
 
