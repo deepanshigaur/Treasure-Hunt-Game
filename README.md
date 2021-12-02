@@ -13,7 +13,7 @@
 #### Team Members:
 	Deepanshi Gaur
 	Joey Zhang
-	Kweku
+	Kweku Antwi-Obeng
 
 ***
 
@@ -69,7 +69,7 @@ The Project is broken down into the following file structure:
 * Specifically analysed the structure of the Johnson's building in Dickinson Community to map out the backound of the game, Created the player icon and the hidden treasure. 
 * Created the game start screen, game screen and the game over screen.
 	
-### Back End Specialist - Kweku 
+### Back End Specialist - Kweku Antwi-Obeng
 
 << The back end specialist... >>
 
@@ -81,6 +81,11 @@ The Project is broken down into the following file structure:
 
 | Step                  | Procedure     | Expected Results  | Actual Results |
 | ----------------------|:-------------:| -----------------:| -------------- |
-|  1  | Run Counter Program  | GUI window appears with count = 0  |          |
-|  2  | click count button  | display changes to count = 1 |                 |
-etc...
+|  1  | Open terminal, navigate to folder/directory, run main.py | Game is initialized                         |                 |
+|  2  | Player receives hint/message with possible hiding spots  | The console is updated to display a message |                 |
+|  3. | Player chooses to move forward, left, or right, back     | The user is inputting the correct option and is interacting with the main game when the message pops up in the console |           |
+|  4. | In three room check attempts, the treasure should be found. If three incorrect rooms are checked, or if the player chooses to backward | If the treasure is found the screen will be updated to congratulate the player, If the treasure isn’t found or three moves were used up then the screen is updated to game over |
+    | 
+  
+
+
