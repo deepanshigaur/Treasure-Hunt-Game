@@ -28,12 +28,17 @@ A typical treasure hunt game where the player has to find the treasure that coul
 * << You should also have a screenshot of each screen for your final GUI >>
 1. Start Screen/Instructions Screen-
 This opening screen is the first thing the player sees upon playing, there is a big "start" button to begin the game. The instructions are displayed below the "Start" button and it tells the user how to play the game by pressing certain buttons to navigate around the map. 
-	
+	![IMG_1785](https://user-images.githubusercontent.com/89817993/144914758-0065cb85-6eb7-4d15-b96f-f2887b77fff4.png)
+
 2. The Game Menu-
 This screen is where the treasure hunt actually begins. A player icon is set in the middle of a map and the treasure is in one of the six rooms. The user is able to move the character around by pressing certain buttons mentioned in the instructions. The player gets three chances to try and successfully find the treasure within the six rooms in order to win. 
-	
+	![IMG_1786](https://user-images.githubusercontent.com/89817993/144914801-8dbe0733-6afa-4aa5-a67e-30a4f3a466d0.png)
+	![IMG_1787](https://user-images.githubusercontent.com/89817993/144914963-3e8544b5-040c-48e8-adb4-c640f2679b2d.png)
+
 3. The Game Over Menu-
 If the player still can't reach the treasure within three tries then the game will be over. The "game over" sign will pop up along with the "play again" button for them to restart the game. 
+	![IMG_1788](https://user-images.githubusercontent.com/89817993/144914885-0df72fdb-3f88-4258-8811-232cef40681e.png)
+
 ***        
 
 ## Program Design *(Backend Specialist)*
