@@ -26,7 +26,14 @@ A typical treasure hunt game where the player has to find the treasure that coul
 * << A wireframe or drawing of the user interface concept along with a short description of the interface. You should have one for each screen in your program. >>
     * For example, if your program has a start screen, game screen, and game over screen, you should include a wireframe / screenshot / drawing of each one and a short description of the components
 * << You should also have a screenshot of each screen for your final GUI >>
-
+1. Start Screen/Instructions Screen-
+This opening screen is the first thing the player sees upon playing, there is a big "start" button to begin the game. The instructions are displayed below the "Start" button and it tells the user how to play the game by pressing certain buttons to navigate around the map. 
+	
+2. The Game Menu-
+This screen is where the treasure hunt actually begins. A player icon is set in the middle of a map and the treasure is in one of the six rooms. The user is able to move the character around by pressing certain buttons mentioned in the instructions. The player gets three chances to try and successfully find the treasure within the six rooms in order to win. 
+	
+3. The Game Over Menu-
+If the player still can't reach the treasure within three tries then the game will be over. The "game over" sign will pop up along with the "play again" button for them to restart the game. 
 ***        
 
 ## Program Design *(Backend Specialist)*
