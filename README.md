@@ -25,8 +25,8 @@ A typical treasure hunt game where the player has to find the treasure that coul
 ## User Interface Design *(Front End Specialist)*
 
 1. Start Screen/Instructions Screen-
-This opening screen is the first thing the player sees upon playing, there is a big "start" button to begin the game. The instructions are displayed below the "Start" button and it tells the user how to play the game by pressing certain buttons to navigate around the map. 
-	![IMG_1785](https://user-images.githubusercontent.com/89817993/144914758-0065cb85-6eb7-4d15-b96f-f2887b77fff4.png)
+This opening screen is the first thing the player sees upon playing, there is a big "start" button to begin the game and the title "Sreven Moore's Treasure Adventure". The instructions are displayed below the "Start" button and it tells the user how to play the game by pressing certain buttons to navigate around the map. 
+	<img width="400" alt="Screen Shot 2021-12-06 at 5 38 37 PM" src="https://user-images.githubusercontent.com/89813272/144934179-f8b63601-df97-4ec8-bab9-71ac4f1044aa.png">
 
 2. The Game Menu-
 This screen is where the treasure hunt actually begins. A player icon is set in the middle of a map and the treasure is in one of the six rooms. The user is able to move the character around by pressing certain buttons mentioned in the instructions. The player gets three chances to try and successfully find the treasure within the six rooms in order to win. 
