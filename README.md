@@ -65,8 +65,7 @@ The Project is broken down into the following file structure:
 
 ### Front End Specialist - Joey Zhang
 
-* Specifically analysed the structure of the Johnson's building in Dickinson Community to map out the background of the game, Created the player icon and the hidden treasure. 
-* Created the game start screen, game screen, winning screen and the game over screen.
+* Specifically analysed the structure of the Johnson's building in Dickinson Community for reference to map out the background of the game, Created the player icon and the hidden treasure. She created the game start/ instructure screen, game screen, winning screen and the game over screen. She went through the pygame documentation and tutorials to find the relevant pygame feature. 
 	
 ### Back End Specialist - Kweku Antwi-Obeng
 
