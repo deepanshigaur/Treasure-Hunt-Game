@@ -23,7 +23,7 @@ A typical treasure hunt game where the player has to find the treasure that coul
 ***    
 
 ## User Interface Design *(Front End Specialist)*
-* 
+
 1. Start Screen/Instructions Screen-
 This opening screen is the first thing the player sees upon playing, there is a big "start" button to begin the game. The instructions are displayed below the "Start" button and it tells the user how to play the game by pressing certain buttons to navigate around the map. 
 	![IMG_1785](https://user-images.githubusercontent.com/89817993/144914758-0065cb85-6eb7-4d15-b96f-f2887b77fff4.png)
