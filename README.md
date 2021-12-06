@@ -61,13 +61,12 @@ The Project is broken down into the following file structure:
 
 ### Software Lead - Deepanshi Gaur
 
-* Worked as integration specialist by underlining our responsibilities and contacting other team mates, making deadlines and making sure everyone meets them.
-* Regularly met on Tuesdays and Thursdays to ensure progress and discussed new ideas that can make the game more interesting.
+* Worked as integration specialist by underlining our responsibilities and contacting other team mates, making deadlines and making sure everyone meets them. Regularly met on Tuesdays and Thursdays to ensure progress and discussed new ideas that can make the game more interesting. She also helped in creating the User Interface Images with the front-end specialist and designed the overall layout of the game screen.
 
 ### Front End Specialist - Joey Zhang
 
-* Specifically analysed the structure of the Johnson's building in Dickinson Community to map out the backound of the game, Created the player icon and the hidden treasure. 
-* Created the game start screen, game screen and the game over screen.
+* Specifically analysed the structure of the Johnson's building in Dickinson Community to map out the background of the game, Created the player icon and the hidden treasure. 
+* Created the game start screen, game screen, winning screen and the game over screen.
 	
 ### Back End Specialist - Kweku Antwi-Obeng
 
