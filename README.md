@@ -33,9 +33,12 @@ This opening screen is the first thing the player sees upon playing, there is a 
 2. The Game Menu-
 This screen is where the treasure hunt actually begins. A player icon is set in the middle of a map and the treasure is in one of the six rooms. The user is able to move the character around by pressing certain buttons mentioned in the instructions. The player gets three chances to try and successfully find the treasure within the six rooms in order to win. 
 	![IMG_1786](https://user-images.githubusercontent.com/89817993/144914801-8dbe0733-6afa-4aa5-a67e-30a4f3a466d0.png)
+	
+3. The "You Win" Screen-
+If the player is able to successfully find the treasure within the three tries that they are given then the "You Win" screen will pop up indicating their victory.
 	![IMG_1787](https://user-images.githubusercontent.com/89817993/144914963-3e8544b5-040c-48e8-adb4-c640f2679b2d.png)
 
-3. The Game Over Menu-
+4. The "Game Over" Screen-
 If the player still can't reach the treasure within three tries then the game will be over. The "game over" sign will pop up along with the "play again" button for them to restart the game. 
 	![IMG_1788](https://user-images.githubusercontent.com/89817993/144914885-0df72fdb-3f88-4258-8811-232cef40681e.png)
 
