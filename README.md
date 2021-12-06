@@ -18,7 +18,7 @@
 ***
 
 ## Project Description *(Software Lead)*
-A typical treasure hunt game where the player has to find the treasure that could be hidden randomly in the 6 rooms. The game starts with the 'start screen' and  providing instructions to the user. The player gets 3 attempts to guess where the treasure is hidden. After 3 failed attempts the game will automatically get over and the game over screen will appear. player can be moved by pressing 'F', 'B', 'L', 'R' that indicates moving forward, backward, left and right respectively.
+A typical treasure hunt game where the player has to find the treasure that could be hidden randomly in the 1 of the 6 rooms. The game starts with the 'start screen' and  providing instructions to the user. The player gets 3 attempts to guess where the treasure is hidden. If the player guesses correctly, they win, but after 3 failed attempts the game will automatically end and the game over screen will appear. The player can be moved by the user by pressing the buttons 'F', 'B', 'L', 'R' that indicates moving forward, backward, left and right respectively.
 
 ***    
 
