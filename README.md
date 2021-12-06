@@ -61,15 +61,15 @@ The Project is broken down into the following file structure:
 
 ### Software Lead - Deepanshi Gaur
 
-* Worked as integration specialist by underlining our responsibilities and contacting other team mates, making deadlines and making sure everyone meets them. Regularly met on Tuesdays and Thursdays to ensure progress and discussed new ideas that can make the game more interesting. She also helped in creating the User Interface Images with the front-end specialist and designed the overall layout of the game screen.
+* Worked as integration specialist by underlining our responsibilities and contacting other team mates, making deadlines and making sure everyone meets them. Regularly met on Tuesdays and Thursdays to ensure progress and discussed new ideas that can make the game more interesting. She also helped in creating the User Interface Images with the front-end specialist and designed the overall layout of the game screen. She tested the overall code, debugged it and made sure it can't be broken by the user. the development environmentwas also set up by the software lead.
 
 ### Front End Specialist - Joey Zhang
 
-* Specifically analysed the structure of the Johnson's building in Dickinson Community for reference to map out the background of the game, Created the player icon and the hidden treasure. She created the game start/ instructure screen, game screen, winning screen and the game over screen. She went through the pygame documentation and tutorials to find the relevant pygame feature. 
+* Specifically analysed the structure of the Johnson's building in Dickinson Community for reference to map out the background of the game, Created the player icon and the hidden treasure. She created the game start/ instructure screen, game screen, winning screen and the game over screen. She went through the pygame documentation and tutorials to find the relevant pygame feature that helps in making the code drier and concise. She also collaborated with the software lead to find a testing strategy.
 	
 ### Back End Specialist - Kweku Antwi-Obeng
 
-<< The back end specialist... >>
+* The back end specialist helped with the “Model” portion of Treasure hunt by writing the major classes that would be used in the main game, as well as implementing major pygame functionality into each of them. He created the basic class and controller flowchart to get the initial idea of the code layout. He collaborated with Software lead to create the project structure. He also collaborated with Front-End in the implementation of the classes and functions. 
 
 ## Testing *(Software Lead)*
 * << Describe your testing strategy for your project. >>
