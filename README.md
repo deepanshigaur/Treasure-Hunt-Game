@@ -85,8 +85,10 @@ The Project is broken down into the following file structure:
 * The back end specialist helped with the “Model” portion of Treasure hunt by writing the major classes that would be used in the main game, as well as implementing major pygame functionality into each of them. He created the basic class and controller flowchart to get the initial idea of the code layout. He collaborated with Software lead to create the project structure. He also collaborated with Front-End in the implementation of the classes and functions. 
 
 ## Testing *(Software Lead)*
-* << Describe your testing strategy for your project. >>
-    * << Example >>
+* 1) Menu Testing: We ran the main Controller() to check if the entire classes and functions are running properly and there are no bugs. we check if the start/ instruction screen pops up and the user is able to start the game by pressing the button without having any trouble. We also make sure that the layout of the screen is structurely organised. Lastly, we also check if the fonts of the titles are correct and in order and then finally, we test the overall exhibition of the screen and then we move on.
+
+* 2) Game Testing: We start the game testing by making sure that the player is able to move the icon on the layout of the room set up by us. We make sure that the treasure is hidden randomly in one of the six rooms and the user only gets three tries to find it. We then ensure that the game ends if the user is not able to succeed in finding the treasure within the three attempts and the game over screen pops up. we also verify that the player has the option of choosing to play again by pressing the play again button on the screen with the "Game Over" screen. In the end, we confirm that the "you win" screen shows up when the player successfully finds the treasure.
+    * for Example: The player chooses to go to room no.1 in the search of the treasure and its not there, they have the option to move back and try again. they then choose room no.5 but the treasure is still not there, then they only have one attempt left. In the first scenerio, They choose room no. 4 and the treasure is again not there,: then the game will eventually end and the "Game Over" screen will appear. In the second scenerio, The treasure is indeed in room no. 4; then ultimately the "You Win" screen will appear. 
 
 * Your ATP
 
