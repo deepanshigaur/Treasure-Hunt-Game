@@ -61,11 +61,11 @@ The Project is broken down into the following file structure:
 
 ### Software Lead - Deepanshi Gaur
 
-* Worked as integration specialist by underlining our responsibilities and contacting other team mates, making deadlines and making sure everyone meets them. Regularly met on Tuesdays and Thursdays to ensure progress and discussed new ideas that can make the game more interesting. She also helped in creating the User Interface Images with the front-end specialist and designed the overall layout of the game screen. She tested the overall code, debugged it and made sure it can't be broken by the user. the development environmentwas also set up by the software lead.
+* Worked as integration specialist by underlining our responsibilities and contacting other team mates, making deadlines and making sure everyone meets them. Regularly met on Tuesdays and Thursdays to ensure progress and discussed new ideas that can make the game more interesting. She also helped in creating the User Interface Images with the front-end specialist and designed the overall layout of the game screen. She tested the overall code, debugged it and made sure it can't be broken by the user. the development environment was also set up by the software lead.
 
 ### Front End Specialist - Joey Zhang
 
-* Specifically analysed the structure of the Johnson's building in Dickinson Community for reference to map out the background of the game, Created the player icon and the hidden treasure. She created the game start/ instructure screen, game screen, winning screen and the game over screen. She went through the pygame documentation and tutorials to find the relevant pygame feature that helps in making the code drier and concise. She also collaborated with the software lead to find a testing strategy.
+* Specifically analysed the structure of the Johnson's building in Dickinson Community for reference to map out the background of the game, Created the player icon and the hidden treasure. She created the game start/ instructure screen, game screen, winning screen and the game over screen. She went through the pygame documentation and tutorials to find the relevant pygame feature that helps in making the code drier and concise. She also collaborated with the software lead to find a testing strategy and worked on design outline.
 	
 ### Back End Specialist - Kweku Antwi-Obeng
 
