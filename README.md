@@ -18,7 +18,7 @@
 ***
 
 ## Project Description *(Software Lead)*
-A Treasure hunt game where the player has to find the treasure thats hidden randomly in the johnson building of dickinson community.
+A typical treasure hunt game where the player has to find the treasure that could be hidden randomly in the 1 of the 6 rooms. The game starts with the 'start screen' and  providing instructions to the user. The player gets 3 attempts to guess where the treasure is hidden. If the player guesses correctly, they win, but after 3 failed attempts the game will automatically end and the game over screen will appear. The player can be moved by the user by pressing the buttons 'F', 'B', 'L', 'R' that indicates moving forward, backward, left and right respectively.
 
 ***    
 
@@ -61,13 +61,12 @@ The Project is broken down into the following file structure:
 
 ### Software Lead - Deepanshi Gaur
 
-* Worked as integration specialist by underlining our responsibilities and contacting other team mates, making deadlines and making sure everyone meets them.
-* Regularly met on Tuesdays and Thursdays to ensure progress and discussed new ideas that can make the game more interesting.
+* Worked as integration specialist by underlining our responsibilities and contacting other team mates, making deadlines and making sure everyone meets them. Regularly met on Tuesdays and Thursdays to ensure progress and discussed new ideas that can make the game more interesting. She also helped in creating the User Interface Images with the front-end specialist and designed the overall layout of the game screen.
 
 ### Front End Specialist - Joey Zhang
 
-* Specifically analysed the structure of the Johnson's building in Dickinson Community to map out the backound of the game, Created the player icon and the hidden treasure. 
-* Created the game start screen, game screen and the game over screen.
+* Specifically analysed the structure of the Johnson's building in Dickinson Community to map out the background of the game, Created the player icon and the hidden treasure. 
+* Created the game start screen, game screen, winning screen and the game over screen.
 	
 ### Back End Specialist - Kweku Antwi-Obeng
 
