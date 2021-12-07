@@ -1,8 +1,8 @@
 :warning: Everything between << >> needs to be replaced (remove << >> after replacing)
 # CS110 Project Proposal
-# << Project Title >>
+# Steven Moore's Treasure Adventure
 ## CS 110 Final Project
-### << Semester, Year >>
+### Semester, 2021
 ### [Assignment Description](https://docs.google.com/document/d/1H4R6yLL7som1lglyXWZ04RvTp_RvRFCCBn6sqv-82ps/edit#)
 
 << [https://github.com/<repo>](#) >>
@@ -49,13 +49,10 @@ If the player still can't reach the treasure within three tries then the game wi
         * url for the module documentation
         * a short description of the module
 * Class Interface Design
-    * << A simple drawing that shows the class relationships in your code (see below for an example). >>
         * ![class diagram](assets/class_diagram_v110241024_1.jpg)
-    * This does not need to be overly detailed, but should show how your code fits into the Model/View/Controller paradigm.
 * Classes
-    * << You should have a list of each of your classes with a description. >>
-	-Dickinson Building: creates the background/setting for the model to move around in
-	-Steven_ moore: object controller by user input that moves within the setting
+    * -Dickinson Building: creates the background/setting for the model to move around in
+    * -Steven_ moore: object controller by user input that moves within the setting
 ## Project Structure *(Software Lead)*
 
 The Project is broken down into the following file structure:
@@ -96,9 +93,14 @@ The Project is broken down into the following file structure:
 | ----------------------|:-------------:| -----------------:| -------------- |
 |  1  | Open terminal, navigate to folder/directory, run main.py | Game is initialized                         |                 |
 |  2  | Player receives hint/message with possible hiding spots  | The console is updated to display a message |                 |
-|  3. | Player chooses to move forward, left, or right, back     | The user is inputting the correct option and is interacting with the main game when the message pops up in the console |           |
+|  3. | Player chooses to move forward, left, or right, back     | The user is pressing the correct option and is interacting with the main game when the message pops up in the console |           |
 |  4. | In three room check attempts, the treasure should be found. If three incorrect rooms are checked, or if the player chooses to backward more than three times the game over screen appears | If the treasure is found the screen will be updated to congratulate the player, If the treasure isn’t found or three moves were used up then the screen is updated to game over |
-    
+|  5. | Click the "Start" Button      | The game starts without any error and the user is able to move the player icon properly |            |
+|  6. | Press the "F" button          | The player icon moves forward without any failure   |           |
+|  7. | Press the "B" button          | The player icon moves backwards without any failure |           |
+|  8. | Press the "R" button          | The player icon moves right without any failure     |           |
+|  9. | Press the "L" button          | The player icon moves left without any failure      |           |
+|  10.| Click the "Play Again" button | The user is able to access and play the again       |           |
   
 
 
