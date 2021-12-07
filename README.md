@@ -2,7 +2,7 @@
 # CS110 Project Proposal
 # Steven Moore's Treasure Adventure
 ## CS 110 Final Project
-### Semester, 2021
+### Fall, 2021
 ### [Assignment Description](https://docs.google.com/document/d/1H4R6yLL7som1lglyXWZ04RvTp_RvRFCCBn6sqv-82ps/edit#)
 
 << [https://github.com/bucs110a0fall21/final-project-amigos-de-frijoles](#) >>
