@@ -12,6 +12,6 @@ class screen(buttons):
 
     def render(self, display):
         display.fill((255, 255, 255))
-        self.controller.draw_text(display, "Steven Moore's Treasure Adventure!", (0, 0, 0), self.controller.GAME_W/2, self.controller.GAME_H/3) #changed 3
+        self.controller.draw_text(display, "Steven Moore's Treasure Adventure!", (0, 0, 0), self.controller.width/2, self.controller.heightH/3) #changed 3
 
 
