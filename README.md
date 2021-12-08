@@ -44,10 +44,12 @@ If the player still can't reach the treasure within three tries then the game wi
 
 ## Program Design *(Backend Specialist)*
 * Non-Standard libraries
-    * << You should have a list of any additional libraries or modules used (pygame, request) beyond non-standard python. >>
-    * For each additional module you should include
-        * url for the module documentation
-        * a short description of the module
+    ** Pygame ((https://www.pygame.org/)- A module set incorporating many common game development functions into python, developed by Pete Shinners and Pygame Community. Includes crucial graphical elements as well as a musical playback functionality.	
+
+    ** Random (https://docs.python.org/3/library/random.html)- A module that is an in-built module of Python which is used to generate random numbers. These are pseudo-random numbers means these are not truly random. This module can be used to perform random actions such as generating random numbers, print random a value for a list or string, etc.
+    
+    ** Turtle (https://docs.python.org/3/library/turtle.html)- “Turtle” is a Python feature like a drawing board, which lets us command a turtle to draw all over it! We can use functions like turtle.forward(…) and turtle.right(…) which can move the turtle around. 
+    
 * Class Interface Design
          ![class diagram](assets/class_diagram_v110241024_1.jpg)
 * Classes
