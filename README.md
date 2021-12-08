@@ -40,6 +40,7 @@ If the player is able to successfully find the treasure within the three tries t
 If the player still can't reach the treasure within three tries then the game will be over. The "game over" sign will pop up along with the "play again" button for them to restart the game. 
 	![IMG_1788](https://user-images.githubusercontent.com/89817993/144914885-0df72fdb-3f88-4258-8811-232cef40681e.png)
 
+5. Final GUIs- 
 ***        
 
 ## Program Design *(Backend Specialist)*
@@ -66,9 +67,9 @@ The Project is broken down into the following file structure:
 * bin
     * <all of your python files should go here>
 * assets
-    * <all of your media, i.e. images, font files, etc, should go here)
+    https://github.com/bucs110a0fall21/final-project-amigos-de-frijoles/tree/master/assets
 * etc
-    * <This is a catch all folder for things that are not part of your project, but you want to keep with your project. Your demo video should go here.>
+    https://github.com/bucs110a0fall21/final-project-amigos-de-frijoles/tree/master/etc
 
 ***
 
