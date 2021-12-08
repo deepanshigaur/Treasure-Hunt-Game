@@ -67,9 +67,9 @@ The Project is broken down into the following file structure:
 * bin
     * <all of your python files should go here>
 * assets
-    https://github.com/bucs110a0fall21/final-project-amigos-de-frijoles/tree/master/assets
+    * https://github.com/bucs110a0fall21/final-project-amigos-de-frijoles/tree/master/assets
 * etc
-    https://github.com/bucs110a0fall21/final-project-amigos-de-frijoles/tree/master/etc
+    * https://github.com/bucs110a0fall21/final-project-amigos-de-frijoles/tree/master/etc
 
 ***
 
