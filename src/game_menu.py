@@ -24,13 +24,19 @@ class user():
         self.controller = controller
         self.load_sprites()
         self.position_x, self.position_y = 200, 200
-        self.current_frame, self.last_frame_update = 0, 0
+        self.current_frame, self.last_frame_update = 0,0
     def update(self, actions):
         direction_x = actions["right"] - actions["left"]
         direction_y = actions["down"] - actions["up"]
+        self.position_x += 100 * direction_x
+        self.position_y += 100 * direction_y
+        self.animate(direction_x, direction_y)
+
+    def animate(self, direction_x, direction_y):
+
 
     def render(self, display):
-        pygame.Surface((self.position_x, self.position_y))#(self.curr_image, (self.position_x, position_y))
+        display.blit(self.curr_image, (self.position_x, position_y))
 
     def load_sprites(self):
         self.sprite_dir = os.path.join(self.controller.assets_dir, "1704890.jpg")
