@@ -48,11 +48,18 @@ If the player still can't reach the treasure within three tries then the game wi
     * Pygame https://www.pygame.org/
     	 A module set incorporating many common game development functions into python, developed by Pete Shinners and Pygame Community. Includes crucial graphical elements as well as a musical playback functionality.	
 
-    * Random https://docs.python.org/3/library/random.html
+   * Random https://docs.python.org/3/library/random.html
     	 A module that is an in-built module of Python which is used to generate random numbers. These are pseudo-random numbers means these are not truly random. This module can be used to perform random actions such as generating random numbers, print random a value for a list or string, etc.
     
-    * Turtle https://docs.python.org/3/library/turtle.html
-    	 “Turtle” is a Python feature like a drawing board, which lets us command a turtle to draw all over it! We can use functions like turtle.forward(…) and 	  turtle.right(…) which can move the turtle around. 
+   * Turtle https://docs.python.org/3/library/turtle.html
+    	 “Turtle” is a Python feature like a drawing board, which lets us command a turtle to draw all over it! We can use functions like turtle.forward(…) and
+turtle.right(…) which can move the turtle around. 
+	 
+   * OS https://docs.python.org/3/library/os.html
+    	 The OS module in Python provides functions for interacting with the operating system. OS comes under Python’s standard utility modules. This module          provides a portable way of using operating system-dependent functionality. The *os* and *os.path* modules include many functions to interact with the file system.
+	
+   * Sys https://docs.python.org/3/library/sys.html
+         The sys module in Python provides various functions and variables that are used to manipulate different parts of the Python runtime environment. It allows operating on the interpreter as it provides access to the variables and functions that interact strongly with the interpreter. Let’s consider the below example.
     
 * Class Interface Design
 
@@ -62,6 +69,7 @@ If the player still can't reach the treasure within three tries then the game wi
     * -SteveMoore.py: object controller by user input that moves within the setting
     * -Screen.py: creates the game screen/ instruction screen
     * -buttons.py: makes the button that moves the player icon
+    * -game_menu.py: sets the user in the initial position and creates character
 ## Project Structure *(Software Lead)*
 
 The Project is broken down into the following file structure:
