@@ -103,5 +103,14 @@ if __name__ == "__main__":
             #for event in pygame.event.get():
                 #if event.type == pygame.QUIT:
                     #sys.exit()
+    def randroom(self, room):
+	room1 = 
+	room2 = 
+	room3 =
+	room4 =
+	room5 =
+	room6 = 
+	rooms = {room1, room2, room3, room4, room5, room6}
+	correctans = random.randrange(rooms)
 
 

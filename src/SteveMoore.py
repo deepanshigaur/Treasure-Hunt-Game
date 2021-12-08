@@ -15,6 +15,7 @@ class SteveMoore(pygame.sprite.Sprite):
 		self.x = x
 		self.y = y
 		self.rect = rect
+		self.speed = 5
 	def forward(self):
 		"""
 	moves the player icon forward
@@ -56,17 +57,17 @@ class SteveMoore(pygame.sprite.Sprite):
 		ques2 = input("Would you like to go right(R) or left(L) ?")
 
 		if ques1 == 'F':
-			= self.rect.y -= self.speed
+			forward(self)
 		elif ques1 == 'B':
-			= self.rect.y += self.speed
+			backward(self)
 		else:
-			none### add kill switch
+			none
 		if ques2 == 'R':
-			= self.rect.x += self.speed
-		elif ques2 == :
-			= self.rect.x -= self.speed
+			right(self)
+		elif ques2 == 'L':
+			left()
 		else:
-			none ### add kill switch
+			none 
 	def guess(self, room):
 		"""
 	prints you guessed right if the player succesafully finds the treasure
@@ -74,13 +75,16 @@ class SteveMoore(pygame.sprite.Sprite):
 	return: None
 		"""
 		ingusnum == 0
-		if right == True
+		if right == True:
 			print("You guessed right!!!!!!!")
+		elif:
+		 	print("You guessed right!!!!!!!")
 		else:
-		 
-		igusnum += 1
+			igusnum += 1
 
-
+		if igusnum == 3:
+			self.state == "GAME OVER"
+			
 			
 
 
