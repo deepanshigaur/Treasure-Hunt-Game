@@ -3,7 +3,7 @@ import pygame
 import random
 import os
 #from src import StevenMoore
-from src$ import screen
+from src.screen import screen
 
 class controller():
     def __init__(self):

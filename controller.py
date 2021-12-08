@@ -3,13 +3,15 @@ import pygame
 import random
 import os
 #from src import StevenMoore
-from src import screen
+from src.screen import screen
+from src.buttons import buttons
+from src.game_menu import game_menu
 
 class controller():
     def __init__(self):
         pygame.init()
-        self.width, self.height = 400, 270
-        self.screen_w, self.screen_h = 800, 600
+        self.width, self.height = 500, 400
+        self.screen_w, self.screen_h = 1000, 800
         self.canvas = pygame.Surface((self.width, self.height))
         self.screens = pygame.display.set_mode((self.screen_w, self.screen_h))
         
@@ -40,10 +42,14 @@ class controller():
                     self.actions['left'] = True
                 if event.key == pygame.K_r:
                     self.actions['right'] = True
-                if event.key == pygame.K_d:
+                if event.key == pygame.K_b:
                     self.actions['down'] = True
-                if event.key == pygame.K_u:
+                if event.key == pygame.K_f:
                     self.actions['up'] = True
+                if event.key == pygame.K_n:
+                    self.actions['action1'] = True
+                if event.key == pygame.K_m:
+                    self.actions['action2'] = True
                 if event.key == pygame.K_RETURN:
                     self.actions['start'] = True
             if event.type == pygame.KEYUP:
@@ -51,10 +57,14 @@ class controller():
                     self.actions['left'] = False
                 if event.key == pygame.K_r:
                     self.actions['right'] = False
-                if event.key == pygame.K_d:
+                if event.key == pygame.K_b:
                     self.actions['down'] = False
-                if event.key == pygame.K_u:
+                if event.key == pygame.K_f:
                     self.actions['up'] = False
+                if event.key == pygame.K_n:
+                    self.actions['action1'] = False
+                if event.key == pygame.K_m:
+                    self.actions['action2'] = False
                 if event.key == pygame.K_RETURN:
                     self.actions['start'] = False
 
@@ -77,10 +87,10 @@ class controller():
         self.assets_dir = os.path.join("assets")
         #self.sprite_dir = os.path.join(self.assets_dir, "sprites"
         self.font_dir = os.path.join(self.assets_dir, "font")
-        self.font = pygame.font.Font(os.path.join(self.font_dir, "Pokemon GB.ttf"), 20)
+        self.font = pygame.font.Font(os.path.join(self.font_dir, "Pokemon GB.ttf"), 15)
 
     def load_states(self):
-        self.screen_screen = screening(self)
+        self.screen_screen = screen(self)
         self.state_stack.append(self.screen_screen)
 
     def reset_keys(self):
@@ -89,7 +99,7 @@ class controller():
 
 if __name__ == "__main__":
     stuff = controller()
-    while stuff.running:
+    while stuff.gaming:
         stuff.game_loop()
 
 
