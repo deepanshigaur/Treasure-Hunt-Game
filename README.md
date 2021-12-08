@@ -58,8 +58,8 @@ If the player still can't reach the treasure within three tries then the game wi
 
    ![class diagram](assets/class_diagram_v110241024_1.jpg)
 * Classes
-    * -Dickinson Building: creates the background/setting for the model to move around in
-    * -Steven_ moore: object controller by user input that moves within the setting
+    * -Controller.py: creates the background/setting for the model to move around in
+    * -SteveMoore.py: object controller by user input that moves within the setting
 ## Project Structure *(Software Lead)*
 
 The Project is broken down into the following file structure:
