@@ -52,7 +52,7 @@ If the player still can't reach the treasure within three tries then the game wi
     
 * Class Interface Design
 
-        ![class diagram](assets/class_diagram_v110241024_1.jpg)
+   ![class diagram](assets/class_diagram_v110241024_1.jpg)
 * Classes
     * -Dickinson Building: creates the background/setting for the model to move around in
     * -Steven_ moore: object controller by user input that moves within the setting
