@@ -15,10 +15,6 @@ class game_menu(buttons):
             new_state.click_button()
             self.user.update(actions)
 
-    def render(self, display):
-        display.blit(self.room_img, (0,0))
-        self.user.render(display)
-
 class user():
     def __init__(self, controller):
         self.controller = controller

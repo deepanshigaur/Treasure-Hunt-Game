@@ -2,12 +2,9 @@ import sys
 import pygame
 import random
 import os
-#from src import StevenMoore
-#<<<<<<< HEAD
-from src import screen
-#=======
+
 from src.screen import screen
-#>>>>>>> f552c1642eaf0dc0419ae7164a2225f9e2433429
+
 
 class controller():
         def __init__(self):
@@ -85,15 +82,25 @@ class controller():
             '''
             self.state_stack[-1].update(self.actions)#self.dt
 
-        def render(self):
+        def render(self,display):
             '''
         set up for the menu
-        args: self(class)
+        args: self(class), display(class)
         return: None
             '''
             self.state_stack[-1].render(self.game_canvas)
             self.screens.blit(pygame.transform.scale(self.game_canvas,(self.SCREEN_WIDTH, self.SCREEN_HEIGHT)), (0,0))
+            display.blit(self.room_img, (0,0))
+            self.user.render(display)
+
+            display.fill((255,255,255))
+            self.controller.draw_text(display, "Game", (0,0,0), self.controller.width/2, self.controller.height/2)
+
+            display.fill((255, 255, 255))
+            self.controller.draw_text(display, "Steven Moore's Treasure Adventure!", (0, 0, 0),
+self.controller.width/2, self.controller.height/6)
             pygame.display.flip()
+         
   
         def draw_text(self, surface, text, color, x, y):
             '''
@@ -153,14 +160,14 @@ class controller():
             #for event in pygame.event.get():
                 #if event.type == pygame.QUIT:
                     #sys.exit()
-    def randroom(self, room):
-	room1 = 
-	room2 = 
-	room3 =
-	room4 =
-	room5 =
-	room6 = 
-	rooms = {room1, room2, room3, room4, room5, room6}
-	correctans = random.randrange(rooms)
+    #def randroom(self, room):
+	#room1 = 
+	#room2 = 
+	#room3 =
+	#room4 =
+	#room5 =
+	#room6 = 
+	#rooms = {room1, room2, room3, room4, room5, room6}
+	#correctans = random.randrange(rooms)
 
 
