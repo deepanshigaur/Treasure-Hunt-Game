@@ -2,7 +2,7 @@ import sys
 import pygame
 import random
 import os
-#from src import StevenMoore
+#from src import SteveMoore
 from src.screen import screen
 from src.buttons import buttons
 from src.game_menu import game_menu
