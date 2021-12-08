@@ -62,6 +62,7 @@ If the player still can't reach the treasure within three tries then the game wi
     * -SteveMoore.py: object controller by user input that moves within the setting
     * -Screen.py: creates the game screen/ instruction screen
     * -buttons.py: makes the button that moves the player icon
+    * -game_menu.py: sets the user in the initial position and creates character
 ## Project Structure *(Software Lead)*
 
 The Project is broken down into the following file structure:
