@@ -65,7 +65,7 @@ If the player still can't reach the treasure within three tries then the game wi
 The Project is broken down into the following file structure:
 * main.py
 * bin
-    * <all of your python files should go here>
+    * https://github.com/bucs110a0fall21/final-project-amigos-de-frijoles/tree/master/src
 * assets
     * https://github.com/bucs110a0fall21/final-project-amigos-de-frijoles/tree/master/assets
 * etc
