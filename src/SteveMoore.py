@@ -10,7 +10,7 @@ class SteveMoore(pygame.sprite.Sprite):
 	return: None
 		"""
 		pygame.sprite.Sprite._init(self)
-		self.image = pygame.image.load(img_file).convert_alpha()
+		self.image = pygame.image.load('1704890.png').convert_alpha()
 		self.rect = self.image.get_rect()
 		self.x = x
 		self.y = y

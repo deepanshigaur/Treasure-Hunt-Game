@@ -23,7 +23,8 @@ class user():
     def __init__(self, controller):
         self.controller = controller
         self.load_sprites()
-        self.position_x, self.position_y = 200, 200
+        self.position_x = 200
+        self.position_y = 200
         self.current_frame, self.last_frame_update = 0,0
     def update(self, actions):
         direction_x = actions["right"] - actions["left"]
@@ -34,7 +35,8 @@ class user():
 
 
     def render(self, display):
-        pygame.Surface((self.position_x, self.position_y))#(self.curr_image, (self.position_x, position_y))
+        pass
+        #pygame.Surface((self.position_x, self.position_y))#(self.curr_image, (self.position_x, position_y))
 
     def animate(self, direction_x, direction_y):
         pass
@@ -42,6 +44,7 @@ class user():
         self.sprite_img = pygame.image.load(os.path.join(self.controller.assets_dir, "user"))
         display.blit(self.sprite_img, self.sprite_rect)
         #display.blit(self.cursor_img, self.cursor_rect)
+        pygame.display.flip()
 
     def __init__(self, controller):
         self.controller = controller
@@ -56,13 +59,13 @@ class user():
         self.cursor_pos_y = self.menu_rect.y + 40
         self.cursor_rect.x, self.cursor_rect.y = self.menu_rect.x + 10, self.cursor_pos_y
 
-    def update(self, actions):
-        self.update_cursor(actions)
-        if actions["action1"]:
-            self.elevator()
-        if actions["action2"]:
-            self.exit_state()
-            self.game.reset_keys()
+    #def update(self, actions):
+        #self.update_cursor(actions)
+        #if actions["action1"]:
+            #self.elevator()
+        #if actions["action2"]:
+            #self.exit_state()
+            #self.game.reset_keys()
 
     def render(self, display):
         #self.prev_state.render(display)

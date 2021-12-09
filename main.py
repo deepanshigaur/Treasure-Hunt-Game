@@ -1,6 +1,6 @@
 #import your controller
 import pygame
-from src import controller
+from src.controller import controller
 def main():
     #Create an instance on your controller object
 	pygame.init()
@@ -10,4 +10,5 @@ def main():
 	print("Frontend is:" , team["frontend"])
 	main_window = controller.Controller()
 	main_window.mainLoop()
+	
 main()

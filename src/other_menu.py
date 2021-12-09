@@ -40,12 +40,12 @@ class other_menu(buttons):
             while len(self.controller.state_stack) > 1:
                 self.controller.state_stack.pop()
 
-    def update_cursor(self, actions):
-        if actions["down"]:
-            self.index = (self.index + 1)%len(self.menu_options)
-        elif actions["up"]:
-            self.index = (self.index - 1)%len(self.menu_options)
-        self.cursor_rect.y = self.cursor_pos_y + (self.index * 40)
+    #def update_cursor(self, actions):
+        #if actions["down"]:
+            #self.index = (self.index + 1)%len(self.menu_options)
+        #elif actions["up"]:
+            #self.index = (self.index - 1)%len(self.menu_options)
+        #self.cursor_rect.y = self.cursor_pos_y + (self.index * 40)
 
 
 
