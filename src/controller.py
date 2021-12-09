@@ -2,9 +2,15 @@ import sys
 import pygame
 import random
 import os
+<<<<<<< HEAD
 
 from src.screen import screen
 
+=======
+#from src import StevenMoore
+from src.screen import screen
+from src.buttons import buttons
+>>>>>>> d8df7f8fa66aff389fda138e8cea034cd53e49a5
 
 class controller():
         def __init__(self):
@@ -39,7 +45,7 @@ class controller():
 
         def get_events(self):
             '''
-        sets up if the user presses a certain button, if its true runs the code and if its false dont do      anything
+        sets up if the user presses a certain button, if its true runs the code and if its false dont do anything
         args: self(class)
         return: None
             '''

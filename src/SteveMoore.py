@@ -75,14 +75,17 @@ class SteveMoore(pygame.sprite.Sprite):
 	return: None
 		"""
 		ingusnum == 0
-		if direction == True:
-			print("You guessed right!!!!!!!")
 
-		else:
-			igusnum += 1
+		#if right == True:
+			#print("You guessed right!!!!!!!")
+		#elif:
+		 	#print("You guessed right!!!!!!!")
+		#else:
+			#igusnum += 1
 
-		if igusnum == 3:
-			self.state == "GAME OVER"
+		#if igusnum == 3:
+			#self.state == "GAME OVER"
+
 			
 			
 
