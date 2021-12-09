@@ -36,8 +36,8 @@ class user():
 
     def animate(self, direction_x, direction_y):
         pass
-<<<<<<< HEAD
-=======
+#<<<<<<< HEAD
+#=======
     def load_sprites(self, display):
         self.sprite_img = pygame.image.load(os.path.join(self.controller.assets_dir, "user"))
         display.blit(self.sprite_img, self.sprite_rect)
@@ -70,5 +70,5 @@ class user():
         #self.blit(self.menu_img, self.menu_rect)
         pass
 
->>>>>>> d8df7f8fa66aff389fda138e8cea034cd53e49a5
+#>>>>>>> d8df7f8fa66aff389fda138e8cea034cd53e49a5
 
