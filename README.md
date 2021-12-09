@@ -7,7 +7,7 @@
 
  [https://github.com/bucs110a0fall21/final-project-amigos-de-frijoles](#) 
 
-<< [link to demo presentation slides](#) >>
+ https://github.com/bucs110a0fall21/final-project-amigos-de-frijoles/blob/master/etc/demo%20video-2.mp4
 
 ### Team: Amigos de frijoles
 #### Team Members:
@@ -41,7 +41,9 @@ If the player still can't reach the treasure within three tries then the game wi
 	![IMG_1788](https://user-images.githubusercontent.com/89817993/144914885-0df72fdb-3f88-4258-8811-232cef40681e.png)
 
 5. Final GUIs- 
-***        
+***        ![IMG_2192](https://user-images.githubusercontent.com/89817993/145337168-b87937f5-c963-4f45-8623-03c896ade4bb.jpeg)
+
+![IMG_2193](https://user-images.githubusercontent.com/89817993/145337180-7d7eb0f3-3a4a-4b73-ad6f-a3b03f1fb02f.jpeg)
 
 ## Program Design *(Backend Specialist)*
 * Non-Standard libraries

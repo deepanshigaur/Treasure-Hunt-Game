@@ -75,6 +75,7 @@ class SteveMoore(pygame.sprite.Sprite):
 	return: None
 		"""
 		ingusnum == 0
+
 		#if right == True:
 			#print("You guessed right!!!!!!!")
 		#elif:
@@ -84,6 +85,7 @@ class SteveMoore(pygame.sprite.Sprite):
 
 		#if igusnum == 3:
 			#self.state == "GAME OVER"
+
 			
 			
 
