@@ -7,7 +7,7 @@
 
  [https://github.com/bucs110a0fall21/final-project-amigos-de-frijoles](#) 
 
-<< [link to demo presentation slides](#) >>
+ https://github.com/bucs110a0fall21/final-project-amigos-de-frijoles/blob/master/etc/demo%20video-2.mp4
 
 ### Team: Amigos de frijoles
 #### Team Members:
