@@ -41,8 +41,10 @@ If the player still can't reach the treasure within three tries then the game wi
 	![IMG_1788](https://user-images.githubusercontent.com/89817993/144914885-0df72fdb-3f88-4258-8811-232cef40681e.png)
 
 5. Final GUIs- 
-	
-***        
+6. 
+***        ![IMG_2192](https://user-images.githubusercontent.com/89817993/145337168-b87937f5-c963-4f45-8623-03c896ade4bb.jpeg)
+
+![IMG_2193](https://user-images.githubusercontent.com/89817993/145337180-7d7eb0f3-3a4a-4b73-ad6f-a3b03f1fb02f.jpeg)
 
 ## Program Design *(Backend Specialist)*
 * Non-Standard libraries
@@ -71,9 +73,6 @@ turtle.right(…) which can move the turtle around.
     * -Screen.py: creates the game screen/ instruction screen
     * -buttons.py: makes the button that moves the player icon
     * -game_menu.py: sets the user in the initial position and creates character
-    * -other_menu.py: creates the other menu to help user move the icon
-    * -parts.py: creates the icon and sets position
-    
 ## Project Structure *(Software Lead)*
 
 The Project is broken down into the following file structure:
