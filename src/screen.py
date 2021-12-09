@@ -20,6 +20,4 @@ class screen(buttons):
             new_state.click_button()
         self.controller.reset_keys()
 
-       #changed 
-
 

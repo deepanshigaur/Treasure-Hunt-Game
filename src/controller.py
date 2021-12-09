@@ -99,6 +99,11 @@ class controller():
             display.fill((255, 255, 255))
             self.controller.draw_text(display, "Steven Moore's Treasure Adventure!", (0, 0, 0),
 self.controller.width/2, self.controller.height/6)
+
+            self.prev_state.render(display)
+            display.blit(self.menu_img, self.menu_rect)
+            display.blit(self.cursor_img, self.cursor_rect)
+            display.blit(self.curr_image, (self.position_x, position_y))
             pygame.display.flip()
          
   

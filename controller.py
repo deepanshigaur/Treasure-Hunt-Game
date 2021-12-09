@@ -2,7 +2,7 @@ import sys
 import pygame
 import random
 import os
-#from src import SteveMoore
+from src.SteveMoore import SteveMoore
 from src.screen import screen
 from src.buttons import buttons
 from src.game_menu import game_menu
@@ -14,7 +14,6 @@ class controller():
         self.screen_w, self.screen_h = 1000, 800
         self.canvas = pygame.Surface((self.width, self.height))
         self.screens = pygame.display.set_mode((self.screen_w, self.screen_h))
-        
         self.start, self.gaming = True, True
         self.actions = {"left": False, "right": False, "up": False, "down": False, "start": False}
         self.state_stack = []
@@ -69,7 +68,7 @@ class controller():
                     self.actions['start'] = False
 
     def update(self):
-        self.state_stack[-1].update(self.actions)#self.dt
+        self.state_stack[-1].update(self.actions)
 
     def render(self):
         self.state_stack[-1].render(self.canvas)
@@ -78,7 +77,7 @@ class controller():
 
     def draw_text(self, surface, text, color, x, y):
         text_surface = self.font.render(text, True, color)
-        #text_surface.set_colorkey((0,0,0))
+        text_surface.set_colorkey((0,0,0))
         text_rect = text_surface.get_rect()
         text_rect.center = (x, y)
         surface.blit(text_surface, text_rect)

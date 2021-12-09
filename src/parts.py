@@ -22,5 +22,11 @@ class parts(buttons):
             self.exit_state()
         self.controller.reset_keys()
 
+<<<<<<< HEAD
  
 
+=======
+    def render(self, display):
+        display.fill((255,255,255))
+        self.controller.draw_text(display, "Game", (0,0,0), self.controller.width/2, self.controller.height/2)
+>>>>>>> 55572003e3b38fd65317448364610a87b36f3932
