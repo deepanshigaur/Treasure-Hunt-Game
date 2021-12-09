@@ -23,7 +23,7 @@ class other_menu(buttons):
             self.elevator()
         if actions["action2"]:
             self.exit_state()
-       self.game.reset_keys()
+            self.game.reset_keys()
 
     def render(self, display):
         self.prev_state.render(display)
@@ -36,7 +36,7 @@ class other_menu(buttons):
             new_state.click_button()
         elif self.menu_options[self.index] == "Instructions":
             pass
-        elif self.menu_options-self.index] == "Exit":
+        elif self.menu_options[self.index] == "Exit":
             while len(self.controller.state_stack) > 1:
                 self.controller.state_stack.pop()
 

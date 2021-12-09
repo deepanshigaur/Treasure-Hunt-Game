@@ -3,11 +3,8 @@ import pygame
 import random
 import os
 #from src import StevenMoore
-#<<<<<<< HEAD
-from src import screen
-#=======
 from src.screen import screen
-#>>>>>>> f552c1642eaf0dc0419ae7164a2225f9e2433429
+from src.buttons import buttons
 
 class controller():
         def __init__(self):
@@ -42,7 +39,7 @@ class controller():
 
         def get_events(self):
             '''
-        sets up if the user presses a certain button, if its true runs the code and if its false dont do      anything
+        sets up if the user presses a certain button, if its true runs the code and if its false dont do anything
         args: self(class)
         return: None
             '''
@@ -153,14 +150,14 @@ class controller():
             #for event in pygame.event.get():
                 #if event.type == pygame.QUIT:
                     #sys.exit()
-    def randroom(self, room):
-	room1 = 
-	room2 = 
-	room3 =
-	room4 =
-	room5 =
-	room6 = 
-	rooms = {room1, room2, room3, room4, room5, room6}
-	correctans = random.randrange(rooms)
+    #def randroom(self, room):
+	#room1 = 
+	#room2 = 
+	#room3 =
+	#room4 =
+	#room5 =
+	#room6 = 
+	#rooms = {room1, room2, room3, room4, room5, room6}
+	#correctans = random.randrange(rooms)
 
 

@@ -84,7 +84,7 @@ class controller():
 
     def load_assets(self):
         self.assets_dir = os.path.join("assets")
-        #self.sprite_dir = os.path.join(self.assets_dir, "sprites"
+        self.sprite_dir = os.path.join(self.assets_dir, "sprites")
         self.font_dir = os.path.join(self.assets_dir, "font")
         self.font = pygame.font.Font(os.path.join(self.font_dir, "Pokemon GB.ttf"), 15)
 
